@@ -1,0 +1,229 @@
+body
+{padding:0px;
+margin:0px;
+}
+.text
+{font-size: 30px;
+font-family: cursive;
+}
+.nav-item { 
+  font-size: 15px; 
+}
+
+.container
+{
+  border-radius: 15%;
+top:16%;
+left: 5%;
+right:5%;
+}
+.mydiv
+{    height:400px;
+    width:85%;
+    align-self: center;
+    max-width:85%;
+    margin-left:5%;
+    margin-right: 7%;
+    margin-bottom: 5%;
+    position: relative;
+   border:none;
+   background-color: transparent;
+   border-radius: 10%;
+  }
+  
+  /* animation */
+
+  .outcard
+  { transition: transform 0.3s;}
+
+  .outcard ,.mydiv:hover
+  {
+    transform: scale(1.06);
+  }
+
+
+
+  /*  Card colors */
+
+  .d1{background-color:rgba(189, 96, 205,0.2) ;}
+  .d2{background-color: rgba(84, 99, 196, 0.2);}
+  .d3{background-color: rgba(248, 37, 9, 0.2);}
+
+  
+.card-body
+{background-color: rgba(255,255,255,0);
+    border-radius: 10%;
+}
+
+h3 b 
+{ opacity: 1;
+  color:rgb(63, 55, 55);
+  font-size:88% ;
+}
+
+
+.price
+{ 
+  color: #584f5a;
+    font-size:1000% ;
+}
+
+/*------- button----- */
+
+.mybtn1,.mybtn2,.mybtn3
+{ 
+  padding-top: 6%;
+  position:absolute;
+bottom:3%;
+width:94%;
+left:2%;
+
+padding-bottom: 6%;
+display: block;
+}
+
+
+
+
+/*button colors */
+.b1
+{ background-color:rgb(150, 166, 229);
+    border-color:rgb(61, 134, 202) ;}
+.b2
+{ background-color:rgb(221, 167, 186);
+    border-color:rgb(207, 170, 128) ;}
+.b3
+{ background-color:rgb(212, 172, 217);
+    border-color:rgb(61, 134, 202) ;}
+
+
+
+body
+{background-image: url(background.png);
+
+background-attachment: fixed;
+background-size: 100vw 100vh;
+background-repeat: no-repeat;
+object-fit: fill;
+
+}
+
+
+
+
+/* Modal Content */
+.modal {
+  align-content: center;
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  padding-top: 100px; 
+  left: 0;
+  top: 0;
+  max-width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(5, 5, 5); 
+  background-color: rgba(10, 10, 10, 0.4); 
+}
+
+
+.modal-content 
+{
+  position: relative;
+ 
+  overflow: hidden;
+  padding: 0;
+
+margin:auto auto;
+  max-width: 700px;
+  
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+  
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  padding: 2px 16px;
+  
+}
+
+.modal-body {padding: 2px 16px;
+}
+
+.modal-footer {
+  padding: 2px 16px;
+  
+  color: white;
+}
+
+.billResult1, .billResult2, .billResult3
+{width:max-content;
+}
+
+/* Model footer bg */
+.mf1
+{background-color: #687dc9; }
+.mf2
+{background-color: #e08e8e;}
+.mf3
+{background-color: #e99ad4;}
+
+.list2
+{ height:100%;
+list-style-type: square; 
+}
+
+li
+{margin:5%;}
+
+ul
+{margin-left: 13%;}
+
+
+.para
+{font-weight: 100;
+font-style: italic;
+color: #14245c;}
+
+
+/*  Model content end  */
+
+
+
+/* span in modal */
+.s1,.s2,.s3
+{ width:25%;
+height:100px;
+border:solid black 2px;
+}
+
+
